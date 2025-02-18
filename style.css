@@ -1,0 +1,269 @@
+@font-face {
+    font-family: jetbrain;
+    src:url(assets/jetbrain.ttf);
+}
+
+@font-face {
+    font-family: jetbrainbold;
+    src:url(assets/jetbrainbold.ttf);
+}
+
+@font-face {
+    font-family: jetbrainlight;
+    src:url(assets/jetbrainlight.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #F0F0F0;
+    flex-direction: column;
+    overflow-x: hidden;
+    border: 5px solid #01172F;
+}
+
+/*header, logo, and navbar*/
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 5%;
+    background: #01172F;
+    backdrop-filter: blur(200px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-family: jetbrainbold;
+    font-size: 30px;
+    color: #08A4BD;
+    font-weight: 600;
+    transition: 0.5s ease;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0;
+}
+
+.logo:hover {
+    color:aquamarine;
+    transform: scale(1.1);
+}
+
+#lastname {
+    color:aquamarine;
+}
+
+.logo #lastname:hover {
+    color:#08A4BD;
+}
+
+#dot {
+    color: #446DF6;
+}
+
+.navbar {
+    font-family: jetbrainbold;
+    margin-left: auto;
+    margin-right: 120px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 30px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover {
+    color: aquamarine;
+    border-bottom: 3px solid #08A4BD;
+}
+
+
+.home, .aboutme, .contact {
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 30px 5% 0;
+    flex-wrap: nowrap;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+
+.home-content, .aboutme-content, .contact-content {
+    font-family: jetbrain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#01172F;
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.home-content p {
+    font-size: 40px;
+    line-height: 1.7;
+    text-align: right;
+    max-width: 700px;    
+    font-weight: bold; 
+    margin: auto 0;
+}
+
+.aboutme-content p {
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: left;
+    max-width: 700px;
+    margin: auto 0;
+}
+
+.home-content h2, .aboutme-content h2, .contact-content h2 {
+    flex: 1;
+    font-size: 32px;
+    text-align: center;
+}
+
+#cursor {
+    font-family: jetbrainbold;
+    color: #5c2632;
+}
+
+.home-content h1 {
+    font-family: jetbrainbold;
+    font-size: 40px;
+    justify-content: centers;
+    margin: 0 auto;
+}
+
+#angelo {
+    color: #446DF6;
+}
+
+.thinker img {
+    border: 8px solid #00635D;
+    border-radius: 30%;
+    height: auto;
+    width: 50%;
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+/*about me, snowmachine image*/
+
+.snowmachine img {
+    border: 8px solid #00635D;
+    border-radius: 30%;
+    height: auto;
+    width: 50%;
+    max-width: 950px;
+    margin: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.bluesuit img {
+    border: 8px solid #00635D;
+    border-radius: 30%;
+    height: auto;
+    width: 50%;
+    max-width: 950px;
+    margin: auto;
+    display: block; 
+    box-sizing: border-box;
+}
+
+    
+/*contacts*/
+
+.contact-content a {
+    text-decoration: none;
+}
+
+.contact-content h1 {
+    font-size: 35px;
+    margin: auto;
+    color:#446DF6;
+}
+
+.contact-content h1:hover {
+    transition: 0.25s;
+    font-size: 40px;
+    color:#446DF6;
+}
+
+footer p {
+    font-family: jetbrainbold;
+    font-size: 15px;
+    text-align: center;
+}
+
+#fus {
+    text-decoration: none;
+    color:#08A4BD;
+    font-weight: bold;
+}
+
+#fus:hover {
+    text-decoration: underline;
+}
+
+
+/*personal project section*/
+
+#personalproj h1 {
+    font-family: jetbrainbold;
+    font-size: 50px;
+    text-align: center;
+}
+
+#personalproj span {
+    color: #5c2632;
+}
+
+.assignments a {
+    text-decoration: none;
+    color: #446DF6;
+}
+
+.assignments a:hover {
+    transition: 0.25s;
+    color: #08A4BD;
+    font-size: 40px;
+}
+
+.assignments {
+    font-family: jetbrainbold;
+    font-size: 35px;
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+

@@ -216,6 +216,7 @@ body {
     color:#446DF6;
 }
 
+
 footer p {
     font-family: jetbrainbold;
     font-size: 15px;
@@ -235,28 +236,28 @@ footer p {
 
 /*personal project section*/
 
-#personalproj h1 {
+#personalproj h1, #teamproj h1 {
     font-family: jetbrainbold;
     font-size: 50px;
     text-align: center;
 }
 
-#personalproj span {
+#personalproj span, #teamproj span {
     color: #5c2632;
 }
 
-.assignments a {
+.assignments a, #teamproj a {
     text-decoration: none;
     color: #446DF6;
 }
 
-.assignments a:hover {
+.assignments a:hover, #teamproj a:hover {
     transition: 0.25s;
     color: #08A4BD;
     font-size: 40px;
 }
 
-.assignments {
+.assignments, #teamproj .assignments {
     font-family: jetbrainbold;
     font-size: 35px;
     text-align: center;

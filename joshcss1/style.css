@@ -1,0 +1,157 @@
+@font-face {
+    font-family: ubuntuTitle;
+    src:url(ubuntutitle.ttf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src:url(UbuntuNerdFont-Regular.ttf)
+}
+
+@font-face {
+    font-family: ubuntu-italic;
+    src:url(UbuntuNerdFont-Italic.ttf);
+}
+
+@font-face {
+    font-family: ubuntu-bold;
+    src:url(UbuntuNerdFont-Bold.ttf);
+}
+
+* {
+    /*global background color*/
+    background-color: #759AAB;
+}
+
+body {
+    border: 5px solid #3F2E56;
+    border-radius: 10px;
+}
+
+#Main-Title {
+    color: #401F3E;
+    font-family: ubuntuTitle;
+    font-size: 70px;
+}
+
+#Sub-Title {
+    color: #401F3E;
+    font-family: ubuntuTitle;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+nav {   /*boxing up my navbar*/
+    background-color: #3F2E56;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+    box-shadow: 8px 8px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #759AAB;
+    font-weight: bold;
+    background-color: #3F2E56;
+    margin: 10px;
+}
+
+a:hover {   /*cool effects on hover*/
+    transition: 0.25s;
+    border: 6px solid #3F2E56;
+    border-radius: 30px;    
+    margin: 15px;
+    font-size: larger;
+}
+
+hr {    /*beautifying the separator line*/
+    height: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: #3F2E56;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.Code-Commenting {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#code-paragraph {
+    text-align: center; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.code-meme {    /*customizing the embed tag*/
+    border: 6px solid #3F2E56;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px;
+}
+
+.quote {
+    text-align: center;
+    max-width: 1000px;
+    font-size: 20px;
+}
+
+img {   /*border, shadow, and responsiveness*/
+    border: 8px solid #3F2E56;
+    border-radius: 10px;
+    max-width: 100%;    /*for responsive images*/
+    height: auto;
+    box-shadow: 8px 8px 5px;
+    margin-bottom: 10px;    
+}
+
+video { /*added border and shadow to video*/
+    border: 8px solid #3F2E56;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 8px 8px 5px;
+}
+
+audio { /*audio customizations*/
+    border: 8px solid #3F2E56;
+    border-radius: 35px;
+    box-shadow: 8px 8px 5px;
+}
+
+iframe {    /*customization for youtube video*/
+    border: 8px solid #3F2E56;
+    border-radius: 10px;
+    box-shadow: 8px 8px 5px;
+}
+
+footer {
+    margin: 30px;
+}
+
+i { /*custom font for italics*/
+    font-family: ubuntu-italic;
+}
+
+b { /*custom font for bolded text*/
+    font-family: ubuntu-bold;
+}
+
+body {  /*main font*/
+    font-family: ubuntu;
+}
+
+pre {
+    font-family: ubuntu;
+}

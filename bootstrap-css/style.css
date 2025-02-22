@@ -1,21 +1,21 @@
 @font-face {
     font-family: ubuntuTitle;
-    src:url(/joshcss1/ubuntutitle.ttf);
+    src:url(../joshcss1/ubuntutitle.ttf);
 }
 
 @font-face {
     font-family: ubuntu;
-    src:url(/joshcss1/UbuntuNerdFont-Regular.ttf)
+    src:url(../joshcss1/UbuntuNerdFont-Regular.ttf)
 }
 
 @font-face {
     font-family: ubuntu-italic;
-    src:url(/joshcss1/UbuntuNerdFont-Italic.ttf);
+    src:url(../joshcss1/UbuntuNerdFont-Italic.ttf);
 }
 
 @font-face {
     font-family: ubuntu-bold;
-    src:url(/joshcss1/UbuntuNerdFont-Bold.ttf);
+    src:url(../joshcss1/UbuntuNerdFont-Bold.ttf);
 }
 
 body {

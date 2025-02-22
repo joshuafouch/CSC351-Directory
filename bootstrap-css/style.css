@@ -1,0 +1,24 @@
+@font-face {
+    font-family: ubuntuTitle;
+    src:url(ubuntutitle.ttf);
+}
+
+@font-face {
+    font-family: ubuntu;
+    src:url(UbuntuNerdFont-Regular.ttf)
+}
+
+@font-face {
+    font-family: ubuntu-italic;
+    src:url(UbuntuNerdFont-Italic.ttf);
+}
+
+@font-face {
+    font-family: ubuntu-bold;
+    src:url(UbuntuNerdFont-Bold.ttf);
+}
+
+body {
+    font-family: ubuntuTitle, ubuntu, ubuntu-italic, ubuntu-bold;
+}
+

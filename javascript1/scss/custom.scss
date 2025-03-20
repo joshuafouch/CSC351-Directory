@@ -1,0 +1,107 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/* some color variables */
+$blue:   #4d7bc0 !default;
+$color60:#EFD9CE; 
+$color30:#0D0628 !important;
+$color10:rgb(137, 0, 0);
+
+
+/* some blue shades for vibey-ness */
+    $blue-100: tint-color($blue, 80%) !default;
+    $blue-200: tint-color($blue, 60%) !default;
+    $blue-300: tint-color($blue, 40%) !default;
+    $blue-400: tint-color($blue, 20%) !default;
+    $blue-500: $blue !default;
+    $blue-600: shade-color($blue, 20%) !default;
+    $blue-700: shade-color($blue, 40%) !default;
+    $blue-800: shade-color($blue, 60%) !default;
+    $blue-900: shade-color($blue, 80%) !default;
+
+
+/* spacing elements */
+    $navspace: 10px !default;
+
+body {
+    background-color: $color60;
+}
+
+/*overriding bootstrap default navbar*/    
+.navbar {
+    display:flex;
+    background-color: $color30; /* background is blue 30 */
+    border-radius: 10px;
+    color:$color60; 
+    margin:10px;
+    padding:10px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+ul{
+    display:flex;
+    padding:$navspace;
+    z-index:2;  
+    
+    justify-content: center;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;  /*custom variable for navbar spacing*/
+}
+.nav-link{
+    padding:$navspace;
+}
+
+.nav-link:hover{
+    padding: $navspace;
+    color:grey;
+}
+
+.mea-culpa-regular {
+    font-family: "Mea Culpa", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 60px;
+    color: $color10;  /*header is red*/
+}
+
+.subheading {
+    font-family: "Mea Culpa", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.bg-dark{
+    background-color: $color30;
+    color:$color60;
+    border-radius: 5px;
+    margin:5px;
+}
+
+/* changing the color of links */
+$link-color:                              $color10 !default;
+$link-decoration:                         underline !default;
+$link-shade-percentage:                   30% !default;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:                   null !default;
+
+
+/*Joshua's slideshow styling*/
+
+.slideshow-container {
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.btn:hover {
+    opacity: 1.5;
+    transition: 0.25s;
+}
